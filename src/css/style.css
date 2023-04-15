@@ -1,0 +1,48 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: 100;
+}
+
+/* App.js */
+@media screen and (max-width: 750px) {
+    .wrapper {
+        max-width: calc(750px - (30px));
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+.wrapper {
+    max-width: calc(750px - (30px * 2));
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.name {
+    font-size: 20px;
+}
+
+#headshot {
+    max-width: 100%;
+    vertical-align: middle;
+    width: auto;
+    height: auto;
+}
+
+.cell-content {
+    width: 50%;
+    text-align: center;
+}
+
+.logo-link {
+    margin: 1em;
+}
+
+.logo-link img {
+    width: 28px;
+    height: 28px;
+}
