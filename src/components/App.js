@@ -23,7 +23,7 @@ function App() {
                                 <p>wilsonduan10@gmail.com</p>
                                 <a
                                     className="logo-link"
-                                    href="www.linkedin.com/in/wilson-duan-30746b175"
+                                    href="https://www.linkedin.com/in/wilson-duan-30746b175"
                                     target="_blank"
                                 >
                                     <img src={linkedin} alt="Linkedin" />
